@@ -152,6 +152,10 @@ th.expander {
   width: 0;
   padding: 0 !important; }
 
+table.text-center,
+th.text-center {
+  text-align: center; }
+
 p.text-right {
   text-align: right; }
 
@@ -505,7 +509,9 @@ li.list-item {
     padding-right: 200px;
     padding-top: 18px; }
   .footer .social-media {
-    text-align: center; }
+    text-align: center !important; }
+    .footer .social-media th {
+      text-align: center !important; }
     .footer .social-media .button {
       margin: auto; }
       .footer .social-media .button img {
