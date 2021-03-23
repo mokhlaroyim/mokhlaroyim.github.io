@@ -152,10 +152,6 @@ th.expander {
   width: 0;
   padding: 0 !important; }
 
-table.text-center,
-th.text-center {
-  text-align: center; }
-
 p.text-right {
   text-align: right; }
 
@@ -509,15 +505,15 @@ li.list-item {
     padding-right: 200px;
     padding-top: 18px; }
   .footer .social-media {
-    text-align: center !important; }
-    .footer .social-media th {
-      text-align: center !important; }
+    text-align: center; }
     .footer .social-media .button {
       margin: auto; }
       .footer .social-media .button img {
         height: 24px;
         width: 24px;
         margin: 10px !important; }
+    .footer .social-media th {
+      text-align: center; }
   .footer .footer-text p {
     font-size: 13px;
     width: 70%;
@@ -545,7 +541,7 @@ table.button.telegram.icon-btn.tiny.radius {
 .dots {
   display: block;
   color: #00569C;
-  padding: 0 0 15px 40px; }
+  padding: 10px 0 30px 40px; }
 
 span.dots :hover {
   cursor: pointer; }
@@ -562,4 +558,7 @@ span.dots :hover {
     margin-left: 0 !important;
     margin-right: 0 !important; }
   table.button.go-website.radius {
-    margin: 30px 73px !important; } }
+    margin: 30px 73px !important; }
+  .footer .social-media .button img {
+    height: 12px !important;
+    width: 12px !important; } }
