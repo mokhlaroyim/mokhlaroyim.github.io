@@ -307,8 +307,8 @@ html,
 .body {
   background: #f3f3f3 !important; }
 
-span, p, h2, h3, h5 {
-  font-family: 'Open Sans', sans-serif !important; }
+span, p, h2, h3, h5, a {
+  font-family: 'Roboto', sans-serif !important; }
 
 h2, h3, h5 {
   font-weight: bold; }
@@ -318,7 +318,7 @@ h2 {
   color: #00569C; }
 
 p, span {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 22px; }
 
 .header {
@@ -380,6 +380,8 @@ table.button.go-website.radius {
 
 .navigation .button.go-website.radius {
   background-color: unset !important; }
+  .navigation .button.go-website.radius a {
+    padding: 12px 16px !important; }
 
 .navigation th {
   text-align: center !important; }
@@ -402,7 +404,7 @@ p.main-text {
   text-align: center;
   font-style: italic;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   margin: 40px !important; }
 
 .suggestion-text {
@@ -412,8 +414,8 @@ p.main-text {
     padding: 35px 40px 20px 40px !important; }
   .suggestion-text p, .suggestion-text h5 {
     line-height: 22px;
-    padding-left: 40px !important;
-    padding-right: 40px !important;
+    padding-left: 40px;
+    padding-right: 40px;
     text-align: justify; }
   .suggestion-text p.pd {
     padding-bottom: 35px !important; }
@@ -524,6 +526,8 @@ li.list-item {
   margin: auto !important; }
   .button.primary.radius a {
     background-color: #00569C; }
+  .button.primary.radius td {
+    background: unset !important; }
 
 table.button.facebook.icon-btn.tiny.radius,
 table.button.vk.icon-btn.tiny.radius,
@@ -532,7 +536,7 @@ table.button.google.icon-btn.tiny.radius,
 table.button.twitter.icon-btn.tiny.radius,
 table.button.ok.icon-btn.tiny.radius,
 table.button.telegram.icon-btn.tiny.radius {
-  margin-right: 5px !important; }
+  margin-right: 3px !important; }
 
 .dots {
   display: block;
@@ -552,7 +556,25 @@ span.dots :hover {
     text-align: center !important;
     line-height: 22px; }
   table.button.go-website.radius {
-    margin: 40px 0 0 !important; }
+    margin: 34px 0 0 !important; }
+  .suggestion-text h2 {
+    text-align: center !important; }
+  .suggestion-text h5 {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+  .suggestion-text p {
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+    text-align: unset;
+    text-align: left; }
+  .advantage-text h2 {
+    text-align: center !important; }
+  .advantage-list h2 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    text-align: center !important; }
   .footer .social-media .button img {
     height: 12px !important;
-    width: 12px !important; } }
+    width: 12px !important; }
+  span.dots {
+    padding-left: 10px !important; } }
