@@ -26,6 +26,9 @@ center {
   width: 100%;
   min-width: 700px; }
 
+a img {
+  border: none; }
+
 table {
   border-spacing: 0;
   border-collapse: collapse; }
@@ -260,11 +263,19 @@ table.button {
 
 table.button:hover table tr td a,
 table.button:active table tr td a,
-table.button table tr td a:visited {
+table.button table tr td a:visited,
+table.button.tiny:hover table tr td a,
+table.button.tiny:active table tr td a,
+table.button.tiny table tr td a:visited {
   color: #fefefe; }
 
-table.button.tiny table td {
+table.button.tiny table td,
+table.button.tiny table a {
   padding: 4px 8px 4px 8px; }
+
+table.button.tiny table a {
+  font-size: 10px;
+  font-weight: normal; }
 
 table.button:hover table td,
 table.button:visited table td,
@@ -537,6 +548,17 @@ table.button.twitter.icon-btn.tiny.radius,
 table.button.ok.icon-btn.tiny.radius,
 table.button.telegram.icon-btn.tiny.radius {
   margin-right: 3px !important; }
+  table.button.facebook.icon-btn.tiny.radius a,
+  table.button.vk.icon-btn.tiny.radius a,
+  table.button.email.icon-btn.tiny.radius a,
+  table.button.google.icon-btn.tiny.radius a,
+  table.button.twitter.icon-btn.tiny.radius a,
+  table.button.ok.icon-btn.tiny.radius a,
+  table.button.telegram.icon-btn.tiny.radius a {
+    padding: 0 !important; }
+
+table.button.instagram.icon-btn.tiny.radius a {
+  padding: 0 !important; }
 
 .dots {
   display: block;
